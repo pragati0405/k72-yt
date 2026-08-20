@@ -1,5 +1,5 @@
 import React from 'react'
-import Agencepage from '../Components/home/agence/Agencepage'
+import Agencepage from '../Components/agence/Agencepage'
 import { useRef } from "react";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
