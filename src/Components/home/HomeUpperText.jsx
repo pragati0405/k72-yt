@@ -1,5 +1,5 @@
 import React from 'react'
-import Vedio from  './vedio'
+import Vedio from  './Vedio'
 const HomeUpperText = () => {
   return (
     <div className="
