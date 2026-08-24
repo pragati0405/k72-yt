@@ -1,8 +1,10 @@
 import React from 'react'
+import AgenceNavbar from '../common/PageNavbar'
 
 const Agemcepage = () => {
   return (
     <div> 
+      <AgenceNavbar/>
        <div className="relative">
 
   <div className="

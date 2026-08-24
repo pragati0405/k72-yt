@@ -1,12 +1,12 @@
 import React from 'react'
 import ProjectPageImage from './ProjectPageImage'
 import Footer from './Footer';
- 
+import AgenceNavbar from '../common/PageNavbar'
 
 const ProjectPage = () => {
   const project=[
-    {Image1:'public/BEST_site_Thumbnail.jpg',
-      Image2:'public/Capture_d’écran_le_2021-04-06_à_11.32.11.jpg'
+    {Image1:'public/Capture_d’écran_le_2021-04-06_à_11.32.11.jpg',
+      Image2:'public/BEST_site_Thumbnail.jpg'
     },
      {Image1:'public/CF_thumbnail.jpg',
       Image2:'public/crisis24_behance_1920X1200_cartes.jpg'
@@ -33,10 +33,11 @@ const ProjectPage = () => {
 
   return (
     <div className='relative  '>
+       <AgenceNavbar/>
        <div className='  h-[92vw]
        md:h-[35vw]'> 
-         <div className='top-[70vw] absolute uppercase font-semibold text-[18vw] 
-        md:top-[16vw]  md:text-[15vw]
+         <div className='top-[60vw] absolute uppercase font-semibold text-[18vw] 
+        md:top-[14vw]  md:text-[15vw]
         '>
             <h1 >projects
             <sup className='font-light '>17</sup>
