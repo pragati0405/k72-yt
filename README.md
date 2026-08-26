@@ -57,7 +57,7 @@ Building this project involved solving real-world frontend challenges, including
 ## Author
 
 **Pragati Verma**
-[GitHub](https://github.com/pragati0405) · [LinkedIn](#)
+[GitHub](https://github.com/pragati0405) · [LinkedIn](https://www.linkedin.com/in/pragati-verma-a57251399/)
 
 ## License
 
