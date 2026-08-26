@@ -5,7 +5,7 @@ import AgenceNavbar from '../common/PageNavbar'
 
 const ProjectPage = () => {
   const project=[
-    {Image1:'`/image.avif',
+    {Image1:'/image.avif',
   Image2:'/BEST_site_Thumbnail.jpg'
 },
 {Image1:'/CF_thumbnail.jpg',
