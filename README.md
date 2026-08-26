@@ -1,16 +1,64 @@
-# React + Vite
+ # K72 YT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, animation-rich recreation of a creative agency's website — built to practice advanced frontend concepts like scroll-based animations, dynamic routing, and production deployment workflows.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [k72-yt-gamma.vercel.app](https://k72-yt-gamma.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+This project is inspired by K72, a well-known creative digital agency, and recreates its visual identity — bold typography, smooth transitions, and an immersive portfolio showcase — using React.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – Component-based UI
+- **Vite** – Fast build tool & dev server
+- **Tailwind CSS** – Utility-first styling
+- **GSAP** – Scroll and stair-transition animations
+- **React Router** – Client-side routing
+- **Vercel** – Deployment & hosting
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Smooth GSAP-powered page transitions and animations
+- Fully responsive layout across devices
+- Dynamic project showcase with image/video thumbnails
+- Client-side routing with proper SPA rewrite handling
+
+## Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/pragati0405/k72-yt.git
+cd k72-yt
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+
+This project is deployed on [Vercel](https://vercel.com/) with SPA routing handled via a `vercel.json` rewrite rule.
+
+## Learnings
+
+Building this project involved solving real-world frontend challenges, including:
+- Case-sensitive import paths across OS environments
+- Correct static asset handling with Vite's `public/` directory
+- Fixing GSAP animation overlays blocking click events
+- Configuring SPA rewrites for client-side routing on Vercel
+
+## Author
+
+**Pragati Verma**
+[GitHub](https://github.com/pragati0405) · [LinkedIn](#)
+
+## License
+
+This project is for educational purposes only, built as a learning exercise in frontend development.
